@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <rect id="myRect" x="10" y="10" width="80" height="80" fill="#FF0000" />
+</svg>
+
+<script>
+  // Get the SVG element
+  const svg = document.querySelector('svg');
+
+  // Add a click event listener to the SVG element
+  svg.addEventListener('click', () => {
+    // Redirect the user to the specified URL
+    window.location.href = 'https://bxss.xyz';
+  });
+</script>
